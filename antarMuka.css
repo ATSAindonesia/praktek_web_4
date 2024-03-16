@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: absolutes;
+}
+
+header {
+    background-color: #210cac;
+    color: fff;
+    padding: 20px;
+}
+
+h1 {
+    color: yellow;
+    display: block;
+    margin-bottom: 2px;
+}
+
+ul {
+    border-style: dashed;
+    margin: 20px;
+    width: 120px;
+    border-color: lightblue;
+}
+
+box:hover {
+    color: white;
+}
+
+img {
+    position: relative;
+    display: flex;
+    width: 40%;
+    left: 90px;
+    bottom: 280px;
+}
+
+.ti {
+    position: relative;
+    display: flex;
+    color: black;
+    left: 0%;
+    bottom: 96%;
+}
+
+.poltek {
+    position: relative;
+    display: flex;
+    left: -25%;
+    right: 0;
+    bottom: 92;
+}
+
+.poltek2 {
+    position: absolute;
+    display: flex;
+    left: 32%;
+    bottom: 35%;
+    font-size: small;
+    color: red;
+    text-align: center;
+}
+
+footer {
+    background-color: #8b93a1;
+    padding: 31.5px;
+}
+
+.william {
+    position: absolute;
+    bottom: 9px;
+    left: 70%;
+}
+
+.container {
+    display: flex;
+    height: 150px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    bottom: 47%;
+    left: 100px;
+}
+  
+

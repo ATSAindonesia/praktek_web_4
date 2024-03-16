@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector </title>
+</head>
+<style>
+    div p {
+        color: red;
+    }
+    div > p {
+        background-color: yellow;
+    }
+    div + p {
+        background-color: darkgray;
+    }
+    div ~  p {
+        color: cyan;
+    }
+</style>
+<body>
+    <div>
+        <p>This is paragraph. Kesimpulannya bahwa text diwarnai di didalam div maka background color dan text color akan menjadi kelompok</p>
+        <p>This is paragraph. Kesimpulannya bahwa warna text akan diturunkan langsung dari anak elemen. jadi sama dengan warna yang diatas</p>
+    </div>
+    <p>This is paragraph. kesimpulnya digunakan untuk memilih elemen yang dari elemen lain dan memiliki parent yang sama</p>
+    <p>This is paragraph. Kesimpulnnya digunakan untuk memilih elemen yang merupakan saudara langsung (bersebelahan) dari elemen lain dan memiliki parent yang sama</p>
+
+</body>
+</html>

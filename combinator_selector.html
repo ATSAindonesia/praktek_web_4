@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<style>
+    div p {
+        color: red;
+    }
+
+    div > p {
+        background-color: yellow;
+    }
+
+    div + p {
+        background-color: darkgray;
+    }
+
+    div ~ p {
+        color: cyan;
+    }
+</style>
+
+<div>
+    <p>warna akan berubah red dan background yellow karena masih di dalam div</p>
+    <p>warna akan berubah red dan background yellow karena masih di dalam div</p>
+</div>
+    <p>warna berubah karena selector karena child mengikuti parent pada warna</p>
+    <p>warna berubah karena selector karena warna masih bersaudara dengan child</p>
